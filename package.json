@@ -1,0 +1,36 @@
+{
+  "name": "test_next_cache",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "lint": "next lint --dir src"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x"
+  },
+  "devDependencies": {
+    "@types/node": "18.x",
+    "@types/react": "18.x",
+    "@types/react-dom": "18.x",
+    "eslint-config-web-corders": "3.x",
+    "prettier": "3.x",
+    "typescript": "5.x"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint-config-web-corders"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
