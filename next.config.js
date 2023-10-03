@@ -2,7 +2,7 @@ module.exports = {
   async headers() {
     return [
       {
-        source: '/revalidate_with_nextconfig/(.*)',
+        source: '/simple/header_config/(.*)',
         headers: [
           {
             key: 'Cache-Control',
